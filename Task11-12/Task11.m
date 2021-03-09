@@ -12,6 +12,6 @@ A = [a11 a12 ; a21 a22];
 [Eigenvector Eigenvalue] = eig(A)
 
 % Result:
-A*Eigenvector(:,1) - Eigenvalue(1,1)*Eigenvector(:,1)
+%A*Eigenvector(:,1) - Eigenvalue(1,1)*Eigenvector(:,1)
 
-A*Eigenvector(:,2) - Eigenvalue(2,2)*Eigenvector(:,2)
+%A*Eigenvector(:,2) - Eigenvalue(2,2)*Eigenvector(:,2)

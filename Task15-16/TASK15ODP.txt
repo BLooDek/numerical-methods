@@ -1,0 +1,12 @@
+Task 15
+ID:14
+ General model:
+     yfit(x) = a*x^3+b*x^2+c*x+d
+     Coefficients (with 95% confidence bounds):
+       a =       889.8  (819.1, 960.4)
+       b =         406  (47.53, 764.4)
+       c =  -1.813e+04  (-2.276e+04, -1.35e+04)
+       d =        3187  (-1.286e+04, 1.923e+04)
+
+
+yfit(x) = 889.8*x^3+406*x^2-18130*x+3187

@@ -2,10 +2,11 @@ clc
 clear all;
 load("C:\Users\BLooDek\Desktop\numerical-methods\series.mat");
 'Task11'
-ID=14;
+ID=3;
 
 % Task #12 Using Matlab operators for eigenvalues and eigenvectors (3*3)
 'Task12'
+
 M = series(ID);
 if M > 8
  M = 8;
