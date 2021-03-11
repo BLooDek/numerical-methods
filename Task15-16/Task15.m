@@ -1,6 +1,4 @@
-clear all
-close all
-clc
+clear all; close all; clc;
 load("C:\Users\BLooDek\Desktop\numerical-methods\series.mat");
 n = series(ID);
 if n < 4

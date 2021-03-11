@@ -1,0 +1,8 @@
+Task 16, ID 14
+
+yfit(x) = a*cos(x)+x*b
+     Coefficients (with 95% confidence bounds):
+       a =       18.49  (16.7, 20.29)
+       b =      -7.867  (-8.218, -7.516)
+
+yfit(x) = 18.49*cos(x)-7.867*x
