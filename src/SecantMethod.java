@@ -18,14 +18,12 @@ public class SecantMethod {
         return x;
 
     }
-    private static double f(double val){
-        return 18.0 * Math.cos(val) - 8.0*val;
+    private static double f(double x) {
+        return 8.0 * Math.pow(x, 5) + 6.0 * Math.pow(x, 4) + 8.0 * Math.pow(x, 3) - 6.0 * x * x - 4.0 * x + 7.0;
     }
 
 
-
-    /*private static double f(double x) {
-        return 8.0 * Math.pow(x, 5) + 6.0 * Math.pow(x, 4) + 8.0 * Math.pow(x, 3) - 6.0 * x * x - 4.0 * x + 7.0;
+   /* private static double f(double val){
+        return 18.0 * Math.cos(val) - 8.0*val;
     }*/
-
 }
